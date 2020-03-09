@@ -3,9 +3,11 @@
 #
 
 # Declare a variable and initialize it
-
+f=0
+print(f)
 
 # # re-declaring the variable works
+
 
 
 # # ERROR: variables of different types cannot be combined

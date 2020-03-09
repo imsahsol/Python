@@ -2,5 +2,11 @@
 # Example file for HelloWorld
 #
 
-def main():
-    print("hello world")
+# def main():
+
+msg="Hello World"
+print(msg)
+
+# if __name__=="__main__":
+#     main()
+    
