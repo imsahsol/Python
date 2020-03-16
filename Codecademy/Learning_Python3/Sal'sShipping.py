@@ -1,4 +1,7 @@
 def total(weight):
+  """ please note that the prices are extracted 
+  from the chart that was given by the exercise """
+
   # calculates ground shipping total
   if (weight<=2):
     ppp1 = 1.50
