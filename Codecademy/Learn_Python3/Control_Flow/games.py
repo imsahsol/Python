@@ -1,4 +1,6 @@
 import random
+import time
+import script2.py
 
 money = 100
 
@@ -24,8 +26,7 @@ def coin_bet(wager,call):
 
 def main():
     global money
-
-    print("First Game: Coin Flip Game\n")
+    script2.welcome()
 
     while True:
         wager = int(input("Please enter the amount of your wager: "))
@@ -34,9 +35,6 @@ def main():
             continue
         else:
             break
-
-    # wager = int(input("Please enter the amount of your wager: "))
-    # print("You have wagered for $" + str(wager) + ".")
 
     call = input("Please enter your call: ")
     print("Your call was " + call + ".\n")
@@ -55,16 +53,4 @@ if __name__=="__main__":
 ##############################
 ###### END of Coin Flip ######
 ##############################
-
-
-
-
-
-
-
-
-
-
-
-
 
